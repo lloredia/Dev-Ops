@@ -42,8 +42,11 @@ EXPOSE 27017
 CMD ["--port 27017"]
 ```
 Finally, set a default container command:
+```
 ENTRYPOINT usr/bin/mongod
+```
 You can now save the file. Excluding any documentation, your Dockerfile should look as follows:
+```
 FROM ubuntu
 MAINTAINER Darth Vader
 RUN apt-get update
@@ -55,16 +58,19 @@ RUN mkdir -p /data/db
 EXPOSE 27017
 CMD ["--port 27017"]
 ENTRYPOINT usr/bin/mongod
+```
+#  Build an Image
 
-#
-Step 2 - Build an Image
-#
 Now that you’ve got the hard part out of the way, you can create an image by typing the following into the Docker command line:
+```
 docker build -t my_mongodb .
+```
 The -t flag tags the image. You can see all of your options for images by running:
+```
 docker build --help
-Step 3 - Running MongoDB
-#
+```
+# Running MongoDB
+
 Finally, we can create a container that runs an instance of MongoDB in Ubuntu. Be sure to give it a name, or else Docker will assign a random alphanumeric ID:
 sudo docker run -name my_first_mdb_instance -i -t my_mongodb
 The application should now function perfectly on any computer. To see all of your Docker IDs, get a list by running the following code:
