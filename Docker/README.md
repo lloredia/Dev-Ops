@@ -69,7 +69,7 @@ The -t flag tags the image. You can see all of your options for images by runnin
 ```
 docker build --help
 ```
-# Running MongoDB
+## Running MongoDB
 
 Finally, we can create a container that runs an instance of MongoDB in Ubuntu. Be sure to give it a name, or else Docker will assign a random alphanumeric ID:
 sudo docker run -name my_first_mdb_instance -i -t my_mongodb
