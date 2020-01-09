@@ -72,6 +72,10 @@ docker build --help
 ## Running MongoDB
 
 Finally, we can create a container that runs an instance of MongoDB in Ubuntu. Be sure to give it a name, or else Docker will assign a random alphanumeric ID:
+```
 sudo docker run -name my_first_mdb_instance -i -t my_mongodb
+```
 The application should now function perfectly on any computer. To see all of your Docker IDs, get a list by running the following code:
+```
 sudo docker ps -l
+```
