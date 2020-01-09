@@ -1,10 +1,6 @@
 # Create a Dockerfile
 ### Prerequisites
-* dcoker
-* apt-get install -y gnupg
-* apt-get install -y gnupg2
-* apt-get install -y gnupg1
-
+* docker
 
 ## Getting Started
 You can start creating your Dockerfile in the text editor of your choice, so open a new file and begin by specifying a base image. To do this, use the FROM keyword followed by our chosen base image:
