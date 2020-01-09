@@ -1,31 +1,48 @@
-Creating your first Docker container
-Docker creates virtual containers. Docker's container system is very efficient because it works with commits. This saves space, and allows you to see changes to the container. For example, if you install Apache in a container, you can create a commit with the name "Installed Apache" so you know exactly what happened.
+Step 1 - Create a Dockerfile
+#
+You can start creating your Dockerfile in the text editor of your choice, so open a new file and begin by specifying a base image. To do this, use the FROM keyword followed by our chosen base image:
+FROM ubuntu
+If you try to pull an image without providing a version number, the client will default to the latest one. Next, you must declare the maintainer, or author, of the Dockerfile:
+MAINTAINER Darth Vader
+After that, it’s a good idea to update the application repository list. This step is not always necessary, but you should make it a habit while you’re learning:
+RUN apt-get update
+Next, you will set the arguments and commands for downloading MongoDB. You can check the MongoDB docs for a full explanation of the installation process, but the code is pretty straightforward. First, add the package verification key:
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+Then, add MongoDB to the repository sources list:
+RUN echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/mongodb.list
+Update the repository sources list one more time:
+RUN apt-get update
+Install the MongoDB package and create the default data directory:
+RUN apt-get install -y mongodb-10gen
+RUN mkdir -p /data/db
+The next step is setting the default port for MongoDB:
+EXPOSE 27017
+CMD ["--port 27017"]
+Finally, set a default container command:
+ENTRYPOINT usr/bin/mongod
+You can now save the file. Excluding any documentation, your Dockerfile should look as follows:
+FROM ubuntu
+MAINTAINER Darth Vader
+RUN apt-get update
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+RUN echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/mongodb.list
+RUN apt-get update
+RUN apt-get install -y mongodb-10gen
+RUN mkdir -p /data/db
+EXPOSE 27017
+CMD ["--port 27017"]
+ENTRYPOINT usr/bin/mongod
 
-The first thing we'll do is pull from a repository. Say that you want to install Ubuntu in a container, you can pull Ubuntu from the repository:
-
-docker pull ubuntu
-Be patient, as this can take a while. After everything has been downloaded, you can create a container with this OS:
-
-docker run -i -t ubuntu /bin/bash
-Or with Debian, for example:
-
-docker run -i -t debian /bin/bash
-If it can't find the OS (not pulled yet) it will automatically pull it from Docker Hub.
-Effectively, you now have a container! You are running bash in the slimmed down container that is managed by Docker. Try running some common Linux commands to get a feel for the environment.
-
-When you type exit to exit the container and return to your main OS, all of your changes will be gone. To save changes to a container, we use commits.
-Commits
-
-When you create a Docker container, its hostname is automatically generated. For example, when I create a new Ubuntu container, I might get the hostname f7943e42aff0. This is the name that Docker has given to your container.
-
-Install what you want on it, and make sure everything works. Then exit your Docker container:
-exit
-We now need to commit; otherwise, all of your changes will be lost.
-
-docker commit -a "William E." -m "Installed Apache" f7943e42aff0 apachesnapshot
-The -a switch can be used to properly determine who authored that commit (who made the changes in the container). -m is the commit message. The f7943e42aff0 is the hostname of my container. In your case it will differ, as Docker generates them randomly. apachesnapshot is the name of your image.
-You can view a list with all of the images on your local machine. The newest ones are at the top.
-docker images
-
-In order to start your Docker container with the changes, run:
-docker run -t -i apachesnapshot /bin/bash
+#
+Step 2 - Build an Image
+#
+Now that you’ve got the hard part out of the way, you can create an image by typing the following into the Docker command line:
+docker build -t my_mongodb .
+The -t flag tags the image. You can see all of your options for images by running:
+docker build --help
+Step 3 - Running MongoDB
+#
+Finally, we can create a container that runs an instance of MongoDB in Ubuntu. Be sure to give it a name, or else Docker will assign a random alphanumeric ID:
+sudo docker run -name my_first_mdb_instance -i -t my_mongodb
+The application should now function perfectly on any computer. To see all of your Docker IDs, get a list by running the following code:
+sudo docker ps -l
