@@ -51,21 +51,5 @@ curl $IP
 
 
 
-#Config dir – /etc/nginx/
-#Master/Global config file – /etc/nginx/nginx.conf
-#Port 80 http config file – /etc/nginx/conf.d/default
-#TCP ports opened by Nginx – 80 (HTTP), 443 (HTTPS)
-#Document root directory – /usr/share/nginx/html
-
-#To edit files use  sudo vi /etc/nginx/conf.d/default
-
-#You can upload or copy your html/css/js and images to /usr/share/nginx/html/
-#cd /usr/share/nginx/html/
-# sudo cp /backups/theos.in/*.html .
-# sudo cp /backups/theos.in/*.css .
-
-#Copy from local desktop to the remote server using the rsync command or rsync command
-#rsync ~/projects/static/theos.in/* root@10.21.136.134:/usr/share/nginx/html/
-
 
 
