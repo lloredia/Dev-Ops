@@ -30,4 +30,3 @@ ps -aux | grep jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
-
