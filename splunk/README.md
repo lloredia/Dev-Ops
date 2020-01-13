@@ -1,7 +1,19 @@
+# SPLUNK 
 
+## Start Splunk Enterprise
 
-## Start, stop, or restart both processes at once by going to %SPLUNK_HOME%\bin and typing
+From a shell prompt on the Splunk Enterprise server host, run this command:
 
 ```
-splunk [start|stop|restart] 
+splunk start 
 ```
+```
+splunk restart
+```
+```
+splunk stop
+```
+## Access Splunk web interface
+
+    To access Splunk web interface, open your browser and go to http://hostname:8000
+
