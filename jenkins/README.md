@@ -13,3 +13,5 @@ $ sudo systemctl start jenkins.service
 $ sudo systemctl stop jenkins.service
 $ sudo systemctl restart jenkins.service
 ```
+
+* http://localhost:8080
