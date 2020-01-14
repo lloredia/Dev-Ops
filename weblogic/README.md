@@ -6,6 +6,7 @@ alias startweblogic='nohup /home/ec2-user/Oracle/Middleware/Oracle_Home/user_pro
 alias stopweblogic='/home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/stopWebLogic.sh'
 alias startnodemanager='nohup /home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/startNodeManager.sh  > /dev/null 2>&1 &'
 alias stopnodemanager='/home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/stopNodeManager.sh'
+alias nodemanager="/home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/nodemanager"
 ```
 
 
