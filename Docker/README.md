@@ -1,6 +1,16 @@
 # DOCKER 
 
 
+## Commands 
+```
+docker images -a  -- shows all images 
+docker run -it ubuntu bash -- run an Ubuntu container
+docker rmi ImageID --- Remove one or more specific images
+
+
+
+```
+
 
 
 ## Create a Dockerfile
@@ -81,7 +91,3 @@ The application should now function perfectly on any computer. To see all of you
 ```
 sudo docker ps -l
 ```
-
-# Commands 
-[docker images -a] -- shows all images 
-[]
