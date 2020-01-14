@@ -3,11 +3,15 @@
 
 ## Commands 
 ```
+docker info --- For system-wide information on docker
+docker version ---  For docker version
 docker images -a  -- shows all images 
 docker run -it ubuntu bash -- run an Ubuntu container
 docker rmi ImageID --- Remove one or more specific images
-
-
+docker run --rm image_name --- Run and Remove a container upon exit
+docker commit [container ID] [image name]    ---  Committing changes to an image
+docker ps ---  list all running containers
+docker ps -l ---- ist of both running and non-running ones
 
 ```
 
