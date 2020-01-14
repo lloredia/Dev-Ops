@@ -1,4 +1,4 @@
-#DOCKER 
+# DOCKER 
 ## Installation rhel(os)
  ```
  sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
@@ -7,7 +7,7 @@ sudo dnf install docker-ce-3:18.09.1-3.el7
 sudo dnf install --nobest docker-ce
 sudo dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
 
-
+```
 
 
 ## Create a Dockerfile
@@ -66,7 +66,8 @@ RUN mkdir -p /data/db
 EXPOSE 27017
 CMD ["--port 27017"]
 ENTRYPOINT usr/bin/mongod
-```
+```  
+
 #  Build an Image
 
 Now that you’ve got the hard part out of the way, you can create an image by typing the following into the Docker command line:
