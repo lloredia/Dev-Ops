@@ -1,5 +1,5 @@
 # User specific aliases and functions
-alias ll='ls -larht'
+*alias ll='ls -larht'
 alias c='clear'
 alias startweblogic='nohup /home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/startWebLogic.sh > /dev/null 2>&1 &'
 alias stopweblogic='/home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/stopWebLogic.sh'
