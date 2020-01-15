@@ -1,6 +1,6 @@
 ##  Store files / upload files for your web site
 
-* 1) You need to upload files at /var/www/html under RHEL / CentOS / Fedora Linux operating system.
+*  You need to upload files at /var/www/html under RHEL / CentOS / Fedora Linux operating system.
 
 
 ## Apache Server configuration
