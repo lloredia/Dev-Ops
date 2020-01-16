@@ -1,4 +1,6 @@
-# User specific aliases and functions
+#WEBLOGIC
+
+## User specific aliases and functions
 ```
 alias ll='ls -larht'
 alias c='clear'
@@ -10,9 +12,11 @@ alias nodemanager="/home/ec2-user/Oracle/Middleware/Oracle_Home/user_projects/do
 ```
 
 
-# User specific environment and startup programs
+##  User specific environment and startup programs
 ```
 JAVA_HOME=/home/ec2-user/soft/tutorial/jdk1.8.0_231/
 export PATH=$JAVA_HOME/bin:$PATH
 ```
-* export WLST_LOC="/home/ec2-user/Oracle/Middleware/Oracle_Home/oracle_common/common/bin/"
+```
+export WLST_LOC="/home/ec2-user/Oracle/Middleware/Oracle_Home/oracle_common/common/bin/"
+```
