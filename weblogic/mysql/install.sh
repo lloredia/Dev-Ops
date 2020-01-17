@@ -47,8 +47,13 @@ cd /home/ec2-user/soft/tutorial/mysql57/ && ./bin/mysqld --defaults-file=/home/e
 
 #You can obtain the random root password to reset after
 sudo cat -n /home/ec2-user/soft/tutorial/mysql57/log/error.log
-                                echo " ##>>> Please copy out the PASSWORD <<<##"
-                                                                sleep 4
+  
+                                echo "           ################################################  "                              
+                                echo "           ##>>> Please copy out the P.A.S.S.W.O.R.D  <<<##  "
+                                echo "           ################################################  "                    
+                               
+               sleep 5
+                                                                        
 cd /home/ec2-user/soft/tutorial/mysql57/ && ./bin/mysqld_safe --defaults-file=/home/ec2-user/soft/tutorial/mysql57/my.cnf &
 cd /home/ec2-user/soft/tutorial/mysql57/ && ./bin/mysqladmin -u root -S /home/ec2-user/soft/tutorial/mysql57/run/mysqld.sock -p password
 
