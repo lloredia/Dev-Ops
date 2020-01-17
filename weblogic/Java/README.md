@@ -8,8 +8,10 @@
 
 * Set env variables 
 ```
-JAVA_HOME=/home/ec2-user/soft/tutorial/jdk1.8.0_231/
-export PATH=$JAVA_HOME/bin:$PATH
+ jdk1.8.0_221]$  JAVA_HOME=/home/ec2-user/soft/tutorial/jdk1.8.0_231/
+```
+```
+bin]$ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 * 
