@@ -7,4 +7,5 @@ ncurses-libs-5.9-13.20130511.el7
 ```
 ## NEXT STEPS AFTER RUNNING THE INSTALLATION SCRIPT
 After creating your new password 
+
 RUN ```mysql -u root -S run/mysqld.sock -p```
