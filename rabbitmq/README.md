@@ -18,3 +18,10 @@ And much more
 sudo rabbitmq-plugins enable rabbitmq_management
 
 ```
+Once you’ve enabled the console, it can be accessed using your favourite web browser by visiting: 
+```
+http://[your droplet's IP]:15672/
+```
+
+
+
