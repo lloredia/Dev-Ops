@@ -24,3 +24,28 @@ http://[your droplet's IP]:15672/
 ```
 he default username and password are both set ```“guest”``` for the log in.
 
+To have RabbitMQ start as a daemon by default, run the following:
+
+```
+chkconfig rabbitmq-server on
+```
+To start, stop, restart and check the application status, use the following:
+
+### To start the service:
+```
+/sbin/service rabbitmq-server start
+```
+
+### To stop the service:
+```
+/sbin/service rabbitmq-server stop
+```
+
+### To restart the service:
+```
+/sbin/service rabbitmq-server restart
+```
+### To check the status:
+```
+/sbin/service rabbitmq-server status
+```
