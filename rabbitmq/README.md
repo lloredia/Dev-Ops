@@ -22,6 +22,5 @@ Once you’ve enabled the console, it can be accessed using your favourite web b
 ```
 http://[your droplet's IP]:15672/
 ```
-
-
+`he default username and password are both set “guest” for the log in.
 
