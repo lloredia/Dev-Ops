@@ -3,6 +3,13 @@
 #CHANGE ++(DIRECTORIES)
 #EDIT   ++(CNF)
 
+sudo yum install -y libaio
+sudo yum install -y libaio-dev
+sudo yum install -y libaio1
+sudo yum install -y mariadb
+
+
+
 wget -v https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.23-linux-glibc2.12-x86_64.tar.gz
 sleep 4
         clear
@@ -43,7 +50,7 @@ socket=/home/ec2-user/soft/tutorial/mysql57/run/mysqld.sock' > /home/ec2-user/so
 sleep 2
 
 #Initialize MySQL directories with following command, this process will create root user with random password
-cd /home/ec2-user/soft/tutorial/mysql57/ && ./bin/mysqld --defaults-file=/home/ec2-user/soft/tutorial/mysql57/my.cnf --initialize --console
+cd /home/ec2-user/soft/tutorial/mysql57/bin/mysqld --defaults-file=/home/ec2-user/soft/tutorial/mysql57/my.cnf --initialize --console
 
 #You can obtain the random root password to reset after
 sudo cat -n /home/ec2-user/soft/tutorial/mysql57/log/error.log
