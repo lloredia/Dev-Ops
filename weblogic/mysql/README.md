@@ -4,6 +4,15 @@
 ```
 Oracle WebLogic Server 11g or 12c
 ncurses-libs-5.9-13.20130511.el7
+sudo yum install -y libaio
+
+sudo yum install -y libaio-dev
+
+sudo yum install -y libaio1
+
+sudo yum install -y mariadb
+
+
 ```
 ## NEXT STEPS AFTER RUNNING THE INSTALLATION SCRIPT
 After creating your new password
