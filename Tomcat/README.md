@@ -38,9 +38,10 @@ Comment the Valve for only internal access:
 <Context antiResourceLocking="false" privileged="true" >
 <!--<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />-->
 </Context>
-
+```
 gedit $CATALINA_HOME/conf/tomcat-users.xml
-tomcat-users.xml 
+```
+### tomcat-users.xml 
 ```
 <tomcat-users>
    <role rolename="manager-gui"/>
