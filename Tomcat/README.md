@@ -1,10 +1,24 @@
 # TOMCAT 
+            ===================================================
+            Running The Apache Tomcat 9.0 Servlet/JSP Container
+            ===================================================
 
-Install the JDK 8u40 and Tomcat Install
+Apache Tomcat 9.0 requires a Java Standard Edition Runtime
+Environment (JRE) version 8 or later.
 
-Download JDK 8u40 from here:
+=============================
+Running With JRE 8 Or Later
+=============================
+
+(1) Download and Install a Java SE Runtime Environment (JRE)
 
 http://jre.us.oracle.com/java/re/jdk/8u91/promoted/all/RE/latest/bundles/linux-x64/
+
+(2) Download and Install Apache Tomcat
+
+(2.1) Download a binary distribution of Tomcat from:
+
+      https://tomcat.apache.org/
 
 Download Tomcat 9:
 
@@ -13,9 +27,9 @@ http://apache.spinellicreations.com/tomcat/tomcat-9/v9.0.30/bin/
 Setting the environment variables:
 
 ```
-setenv JAVA_HOME /home/ec2-user/soft/tutorial/jdk1.8.0_231
-setenv PATH $JAVA_HOME/bin:$PATH
-setenv CATALINA_BASE /scratch/apache-tomcat-9.0.0.M8
+setenv JAVA_HOME=/home/ec2-user/soft/tutorial/jdk1.8.0_231
+setenv PATH $JAVA_HOME=/bin:$PATH
+setenv CATALINA_BASE/scratch/apache-tomcat-9.0.0.M8
 setenv CATALINA_HOME /scratch/apache-tomcat-9.0.0.M8
 ```
 Start the Instance:
@@ -25,6 +39,55 @@ $CATALINA_HOME/bin/startup.sh
 Check if the Instance process started:
 
 ps auxww | grep tomcat
+
+
+==================================================
+Advanced Configuration - Multiple Tomcat Instances
+==================================================
+ * bin  - Only the following files:
+
+           * setenv.sh (*nix) or setenv.bat (Windows),
+           * tomcat-juli.jar
+
+          The setenv scripts were described above. The tomcat-juli library
+          is documented in the Logging chapter in the User Guide.
+
+ * conf - Server configuration files (including server.xml)
+
+ * lib  - Libraries and classes, as explained below
+
+ * logs - Log and output files
+
+ * webapps - Automatically loaded web applications
+
+ * work - Temporary working directories for web applications
+
+ * temp - Directory used by the JVM for temporary files (java.io.tmpdir)
+
+
+In CATALINA_HOME:
+
+ * bin  - Startup and shutdown scripts
+
+          The following files will be used only if they are absent in
+          CATALINA_BASE/bin:
+
+          setenv.sh (*nix), setenv.bat (Windows), tomcat-juli.jar
+
+ * lib  - Libraries and classes, as explained below
+
+ * endorsed - Libraries that override standard "Endorsed Standards"
+              libraries provided by JRE. See Classloading documentation
+              in the User Guide for details.
+              This is only supported for Java <= 8.
+              By default this "endorsed" directory is absent.
+
+
+
+
+
+
+
 
 # To enable (remote) access the manager and host-manager page:
 ```
