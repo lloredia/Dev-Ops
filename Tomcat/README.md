@@ -32,11 +32,11 @@ CATALINA_HOME=/home/ec2-user/devops/dev_labs/Tomcat/apache-tomcat-9.0.30/
 ```
 Start the Instance:
 
-$CATALINA_HOME/bin/startup.sh
+```$CATALINA_HOME/bin/startup.sh```
 
 Check if the Instance process started:
 
-ps auxww | grep tomcat
+```ps auxww | grep tomcat```
 
 
 
