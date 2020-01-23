@@ -58,6 +58,6 @@ $CATALINA_HOME/bin/shutdown.sh ; $CATALINA_HOME/bin/startup.sh
 
 ### Check the Tomcat HTML Web manager GUI:
 
- <Tomcat Instance Host Name>:8080
+ < Tomcat Instance Host Name >:8080
 
 Click on Manager/Host-Manager (Username/Password:admin/admin)
