@@ -7,7 +7,7 @@ Apache Tomcat 9.0 requires a Java Standard Edition Runtime
 Environment (JRE) version 8 or later.
 
 =============================
-Running With JRE 8 Or Later
+## Running With JRE 8 Or Later
 =============================
 
 (1) Download and Install a Java SE Runtime Environment (JRE)
@@ -20,7 +20,7 @@ http://jre.us.oracle.com/java/re/jdk/8u91/promoted/all/RE/latest/bundles/linux-x
 
       https://tomcat.apache.org/
 
-Download Tomcat 9:
+## Download Tomcat 9:
 
 http://apache.spinellicreations.com/tomcat/tomcat-9/v9.0.30/bin/
 
@@ -41,9 +41,9 @@ Check if the Instance process started:
 ps auxww | grep tomcat
 
 
-==================================================
+
 # Advanced Configuration - Multiple Tomcat Instances
-==================================================
+
 ```
  * bin  - Only the following files:
 
@@ -82,7 +82,7 @@ In CATALINA_HOME:
               in the User Guide for details.
               This is only supported for Java <= 8.
               By default this "endorsed" directory is absent.
-
+```
 
 
 
