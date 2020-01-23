@@ -27,11 +27,12 @@ Check if the Instance process started:
 ps auxww | grep tomcat
 
 ## To enable (remote) access the manager and host-manager page:
-
+```
 gedit $CATALINA_HOME/webapps/manager/META-INF/context.xml
-
+```
+```
 gedit $CATALINA_HOME/webapps/host-manager/META-INF/context.xml
-
+```
 Comment the Valve for only internal access:
 
 <Context antiResourceLocking="false" privileged="true" >
