@@ -114,11 +114,11 @@ or specified:
 ```
 
 ### Bounce the Tomcat:
-
+```
 sh $CATALINA_HOME/bin/shutdown.sh
 
 sh $CATALINA_HOME/bin/startup.sh
-
+```
 Check the Tomcat HTML Web manager GUI using the SSL port:
 
 https://<Tomcat Instance Host Name>:8443
@@ -172,13 +172,13 @@ chmod 600 jmxremote.access
 chmod 600 jmxremote.password
 
 ### Bounce the Tomcat:
-
+```
 sh $CATALINA_HOME/bin/shutdown.sh ; sh $CATALINA_HOME/bin/startup.sh
 
 Check if Tomcat 9999 port is enabled and running
 
 netstat -plten | grep java | grep 9999
-
+```
 Check if the JMX is really working by JConsole:
 
 For Cred-less (Non-SSL):
