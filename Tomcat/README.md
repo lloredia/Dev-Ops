@@ -40,10 +40,10 @@ Check if the Instance process started:
 
 ps auxww | grep tomcat
 
-```
-==================================================
-Advanced Configuration - Multiple Tomcat Instances
-==================================================
+
+# ==================================================
+# Advanced Configuration - Multiple Tomcat Instances
+# ==================================================
 ```
  * bin  - Only the following files:
 
