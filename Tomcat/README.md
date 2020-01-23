@@ -6,10 +6,7 @@
 Apache Tomcat 9.0 requires a Java Standard Edition Runtime
 Environment (JRE) version 8 or later.
 
-=============================
 ## Running With JRE 8 Or Later
-=============================
-
 (1) Download and Install a Java SE Runtime Environment (JRE)
 
 http://jre.us.oracle.com/java/re/jdk/8u91/promoted/all/RE/latest/bundles/linux-x64/
