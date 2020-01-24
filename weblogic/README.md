@@ -30,3 +30,10 @@ alias getpass="openssl rand -base64 20"
 ```
 export WLST_LOC="/home/ec2-user/Oracle/Middleware/Oracle_Home/oracle_common/common/bin/"
 ```
+
+
+
+
+## Configure Admin Console with SSL
+
+ 
