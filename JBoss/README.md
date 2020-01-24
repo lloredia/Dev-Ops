@@ -341,7 +341,84 @@ Go to the Admin Console, port is in the configuration file's management-http/htt
  
  
  
+#  Wildfly JBoss 9.02 Install
+
+
+Setup JBoss:
+
+https://wwu-pi.github.io/tutorials/lectures/eai/010_tutorial_jboss_setup.html
+Installing WildFly 8
+
+    Get the latest stable version of the WildFly Application Server (8.2.0.Final) from http://olex.openlogic.com/packages/jboss#package_detail_tabs
+    Extract the tar.gz
+    Use the script <WildFly directory>\bin\standalone.bat to start the WildFly server and check the installation. After startup, you should be able to access the web server at http://localhost:8080.
+    Open the link Administration Console and follow the instructions to add a new management user.
+    After creating a user revisit the Administration Console.
+
  
+
+Enable Datasource:
+
+http://www.adam-bien.com/roller/abien/entry/installing_oracle_jdbc_driver_on
+
+ 
+
+https://docs.jboss.org/author/display/WFLY8/DataSource+configuration
+
+ 
+
+ 
+
+    Download the driver: ojdbc[VERSION].jar
+    Create subfolders [WILDFLY_HOME]/modules/system/layers/base/com/oracle/main/
+    Copy the downloaded ojdbc[VERSION].jar into the freshly created folder
+    Create a file module.xml, in the same folder as above, with the contents:
+
+
+    <module xmlns="urn:jboss:module:1.1" name="com.oracle">
+      <resources>
+        <resource-root path="ojdbc[VERSION].jar"/>
+      </resources>
+      <dependencies>
+        <module name="javax.api"/>
+        <module name="javax.transaction.api"/>
+      </dependencies>
+    </module>
+
+In the configuration file standalone.xml add the entry
+
+            <datasources>
+                <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
+                    <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
+                    <driver>h2</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                        <password>sa</password>
+                    </security>
+                </datasource>
+                <datasource jndi-name="java:/oracle" pool-name="OracleDS" enabled="true">
+                    <connection-url>jdbc:oracle:thin:@slc03rvg.us.oracle.com:1521:orcl</connection-url>
+                    <driver>oracle</driver>
+                    <pool>
+                        <min-pool-size>1</min-pool-size>
+                        <max-pool-size>5</max-pool-size>
+                        <prefill>true</prefill>
+                    </pool>
+                    <security>
+                        <user-name>sysman</user-name>
+                        <password>welcome1</password>
+                    </security>
+                </datasource>
+                <drivers>
+                    <driver name="h2" module="com.h2database.h2">
+                        <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
+                    </driver>
+                    <driver name="oracle" module="com.oracle">
+                        <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+                    </driver>
+                </drivers>
+            </datasources>
+
  
  
  
