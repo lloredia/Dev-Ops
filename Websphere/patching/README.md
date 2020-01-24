@@ -1,9 +1,5 @@
  WEBSPHERE - HOW TO INSTALL A WEBSPHERE FIX PACK
-Skip to end of metadata
 
-    Created by Pavanitha K R on Jun 15, 2017
-
-Go to start of metadata
 
 HOW TO INSTALL A FIX ON WEBSPHERE
 Fix packs can only be installed using UpdateInstaller of IBM which can be downloaded separately
