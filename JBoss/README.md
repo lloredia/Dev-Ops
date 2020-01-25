@@ -8,21 +8,20 @@ The current supported versions for Monitoring Services are JBoss AS 7.5.10 and 7
 Install JDK & JBoss:
 
 Download JDK 7 for JBoss AS 7 (EAP 6.x):
-
+```
 tar -xzvf jdk-7u80-linux-x64.tar.gz
-
+```
 Setting the environment variables:
-
+```
 setenv JAVA_HOME /scratch/jdk1.7.0_80
-
 setenv PATH $JAVA_HOME/bin:$PATH
-
+```
 To Install JBoss AS 7.5.10 and 7.2.1:
 
 You can easily download the zip files and unzipping in to a directory.
-
+```
 unzip jboss-eap-6.1.0.zip / jboss-eap-6.4.0.zip
-
+```
 setenv JBOSS_HOME <unziped jboss directory>
 Standalone non-SSL:
 
