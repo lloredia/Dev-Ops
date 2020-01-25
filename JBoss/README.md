@@ -13,7 +13,7 @@ tar -xzvf jdk-7u80-linux-x64.tar.gz
 ```
 Setting the environment variables:
 ```
-setenv JAVA_HOME /scratch/jdk1.7.0_80
+setenv JAVA_HOME=/home/jdk1.7.0_80
 setenv PATH $JAVA_HOME/bin:$PATH
 ```
 To Install JBoss AS 7.5.10 and 7.2.1:
