@@ -94,9 +94,9 @@ You will need to start the wildfly instance. You can start it with the following
 ```
 The above command will start the wildfly instance.
 
-Now, open your web browser and type the URL http://<ip address>:8080. 
+Now, open your web browser and type the URL http://3.20.57.181:8080. 
 
-To access the management console, open your web browser and type the URL http://192.168.0.235:9990. 
+To access the management console, open your web browser and type the URL http://3.20.57.181:9990. 
 
 
 
