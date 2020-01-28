@@ -1,11 +1,11 @@
 # Websphere Liberty 8.5.5 Install
 
-Download:
+## Downloading IBM Installation Manager
 
-https://developer.ibm.com/wasdev/downloads/#asset/runtimes-wlp-javaee7
-
-unzip under scratch
-
+You can download latest IBM Installation Manager 1.7 from the following link
+```
+[IBM Installation Manager ](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm/Rational&product=ibm/Rational/IBM+Installation+Manager&release=1.7.0.0&platform=All&function=fixId&fixids=1.7.0.0-Rational-IBMIM-LINUX-X86_64-20130828_2012&useReleaseAsTarget=true)
+```
  ## Downloading IBM WAS 8.5.5 ND
 
  You can download WAS ND 8.5.5 Trial from the following link
