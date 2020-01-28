@@ -15,12 +15,11 @@ After download, you should have agent.installer.linux.gtk.x86_64_1.7.0.20130828_
    * Execute ./install to start installation
    * Click on Next
    * Select the license agreement and click Next
-   * Select the Installation Manager Directory to be installed. You can leave it to default if you wish to install under /opt/IBM
+   * Select the Installation Manager Directory to be installed. You can leave it to default /opt/IBM
    * Review the summary information and click on Install to begin installation
    * Click on Restart Installation Manager on completion wizard
 
 Great, IBM Installation Manager 1.7 is installed now!
- 
  
  
  
@@ -30,10 +29,17 @@ Great, IBM Installation Manager 1.7 is installed now!
  
 [IBM WAS 8.5.5 ND](https://iwm.dhe.ibm.com/sdfdl/v2/regs2/duffys1/was855trials/nd_im/Xa.2/Xb.d9Tdgwrrmy0rKyzq4UFVZgksW2aApNe7a2d2c5ZwbCQ/Xc.nd_im/NDTRIAL.agent.installer.linux.gtk.x86_64.zip/Xd./Xf.LPr.D1vc/Xg.10561801/Xi.swerpws-wasndim85/XY.regsrvs/XZ.Pp_G63bdEWowuJU7jO_LxpqDfz0/NDTRIAL.agent.installer.linux.gtk.x86_64.zip)
 
+After download, you should have  NDTRIAL.agent.installer.linux.gtk.x86_64.zip 
+unzip :
+```
+NDTRIAL.agent.installer.linux.gtk.x86_64.zip
+```
+Launch IBM Installation Manager if you have closed already. To launch you can go to and execute
 
-   
-   
-   
+/home/ec2-user/devops/dev_labs/websphere/app
+```
+./groupinst
+```
    
    
    
