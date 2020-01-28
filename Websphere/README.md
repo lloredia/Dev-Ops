@@ -57,47 +57,7 @@ ex:
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    Websphere Full 8.5.5 install:
-    https://youtu.be/gidA5Z2Vw3o 
-    https://youtu.be/6kq5VyhjzYE
-    
-    First need to instann IBM Install manager,
-
-Download from:
-
-http://www-933.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Rational&product=ibm/Rational/IBM+Installation+Manager&release=1.6.2.0&platform=All&function=all
-
-then add the disk 1 repository file in the Websphere Full 8.5.5 install to it and then install.
-
-https://www-01.ibm.com/marketing/iwm/iwm/web/download.do?source=swerpws-wasbase85-3&S_PKG=dl1&lang=en_US&dlmethod=http
-
-Create user admin/admin
-
-http://localhost:9060/ibm/console
-
- 
- 
- 
- 
+  
 
 ## Using Jconsole:
 
@@ -126,3 +86,11 @@ $JAVA_HOME/bin/jconsole \
         -J$CLIENTSSL\
         service:jmx:iiop://$HOST:$PORT/jndi/JMXConnector
 ```
+
+
+
+
+   
+    Websphere Full 8.5.5 install:
+    https://youtu.be/gidA5Z2Vw3o 
+    https://youtu.be/6kq5VyhjzYE
