@@ -32,7 +32,7 @@ Great, IBM Installation Manager 1.7 is installed now!
 After download, you should have  NDTRIAL.agent.installer.linux.gtk.x86_64.zip 
 unzip :
 ```
-NDTRIAL.agent.installer.linux.gtk.x86_64.zip
+unzip NDTRIAL.agent.installer.linux.gtk.x86_64.zip
 ```
 Launch IBM Installation Manager if you have closed already. To launch you can go to and execute
 
@@ -41,19 +41,17 @@ Launch IBM Installation Manager if you have closed already. To launch you can go
 ./groupinst
 ```
    
+
+    http://localhost:9060/ibm/console
+
+    or
+
+    https://localhost:9043/ibm/console
+ex:
+   ```
+   https://3.20.57.181:9043/ibm/console/
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   ```
    
    
    
@@ -97,10 +95,11 @@ Create user admin/admin
 http://localhost:9060/ibm/console
 
  
+ 
+ 
+ 
 
-Using Jconsole:
-
-http://www.monitis.com/blog/2012/09/12/configuring-jmx-in-websphere-8-5
+## Using Jconsole:
 
 Create a script to tweat special jconsole run:
 
