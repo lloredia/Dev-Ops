@@ -86,11 +86,3 @@ $JAVA_HOME/bin/jconsole \
         -J$CLIENTSSL\
         service:jmx:iiop://$HOST:$PORT/jndi/JMXConnector
 ```
-
-
-
-
-   
-    Websphere Full 8.5.5 install:
-    https://youtu.be/gidA5Z2Vw3o 
-    https://youtu.be/6kq5VyhjzYE
