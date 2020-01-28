@@ -6,30 +6,13 @@ https://developer.ibm.com/wasdev/downloads/#asset/runtimes-wlp-javaee7
 
 unzip under scratch
 
- 
+ ## Downloading IBM WAS 8.5.5 ND
 
-https://connectopensource.atlassian.net/wiki/pages/viewpage.action?pageId=12681451
+ You can download WAS ND 8.5.5 Trial from the following link
+ ```
+https://iwm.dhe.ibm.com/sdfdl/v2/regs2/duffys1/was855trials/nd_im/Xa.2/Xb.d9Tdgwrrmy0rKyzq4UFVZgksW2aApNe7a2d2c5ZwbCQ/Xc.nd_im/NDTRIAL.agent.installer.linux.gtk.x86_64.zip/Xd./Xf.LPr.D1vc/Xg.10561801/Xi.swerpws-wasndim85/XY.regsrvs/XZ.Pp_G63bdEWowuJU7jO_LxpqDfz0/NDTRIAL.agent.installer.linux.gtk.x86_64.zip
+```
 
-cd /scratch/wlp/bin
-
-sh server create websphereserver1
-
-sh server start websphereserver1
-
- 
-
-Enable Datasource
-
-modify the server.xml under wlp/usr/servers/server1
-
-    <library id="OracleLib">
-        <fileset dir="/scratch" includes="ojdbc7.jar"/>
-    </library>
-
-    <dataSource jndiName="java:/oracle" transactional="false">
-           <jdbcDriver libraryRef="OracleLib"/>
-           <properties.oracle driverType="thin" URL="jdbc:oracle:thin:@slc03rvg.us.oracle.com:1521:orcl" user="sysman" password="welcome1"/>
-    </dataSource>
     
     Websphere Full 8.5.5 install:
     https://youtu.be/gidA5Z2Vw3o 
