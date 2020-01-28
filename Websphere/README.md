@@ -3,19 +3,75 @@
 ## Downloading IBM Installation Manager
 
 You can download latest IBM Installation Manager 1.7 from the following link
-```
-[IBM Installation Manager ](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm/Rational&product=ibm/Rational/IBM+Installation+Manager&release=1.7.0.0&platform=All&function=fixId&fixids=1.7.0.0-Rational-IBMIM-LINUX-X86_64-20130828_2012&useReleaseAsTarget=true)
-```
-[IBM Installation Manager ](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm/Rational&product=ibm/Rational/IBM+Installation+Manager&release=1.7.0.0&platform=All&function=fixId&fixids=1.7.0.0-Rational-IBMIM-LINUX-X86_64-20130828_2012&useReleaseAsTarget=true)
 
+[IBM Installation Manager ](http://www.ibm.com/support/fixcentral/swg/quickorder?parent=ibm/Rational&product=ibm/Rational/IBM+Installation+Manager&release=1.7.0.0&platform=All&function=fixId&fixids=1.7.0.0-Rational-IBMIM-LINUX-X86_64-20130828_2012&useReleaseAsTarget=true)
+After download, you should have agent.installer.linux.gtk.x86_64_1.7.0.20130828_2012.zip
+
+* Extract the downloaded file using unzip command
+```
+ unzip agent.installer.linux.gtk.x86_64_1.7.0.20130828_2012.zip
+ ```
+ 
+   * Execute ./install to start installation
+   * Click on Next
+   * Select the license agreement and click Next
+   * Select the Installation Manager Directory to be installed. You can leave it to default if you wish to install under /opt/IBM
+   * Review the summary information and click on Install to begin installation
+   * Click on Restart Installation Manager on completion wizard
+
+Great, IBM Installation Manager 1.7 is installed now!
+ 
+ 
+ 
+ 
  ## Downloading IBM WAS 8.5.5 ND
 
  You can download WAS ND 8.5.5 Trial from the following link
- ```
-https://iwm.dhe.ibm.com/sdfdl/v2/regs2/duffys1/was855trials/nd_im/Xa.2/Xb.d9Tdgwrrmy0rKyzq4UFVZgksW2aApNe7a2d2c5ZwbCQ/Xc.nd_im/NDTRIAL.agent.installer.linux.gtk.x86_64.zip/Xd./Xf.LPr.D1vc/Xg.10561801/Xi.swerpws-wasndim85/XY.regsrvs/XZ.Pp_G63bdEWowuJU7jO_LxpqDfz0/NDTRIAL.agent.installer.linux.gtk.x86_64.zip
-```
+ 
+[IBM WAS 8.5.5 ND](https://iwm.dhe.ibm.com/sdfdl/v2/regs2/duffys1/was855trials/nd_im/Xa.2/Xb.d9Tdgwrrmy0rKyzq4UFVZgksW2aApNe7a2d2c5ZwbCQ/Xc.nd_im/NDTRIAL.agent.installer.linux.gtk.x86_64.zip/Xd./Xf.LPr.D1vc/Xg.10561801/Xi.swerpws-wasndim85/XY.regsrvs/XZ.Pp_G63bdEWowuJU7jO_LxpqDfz0/NDTRIAL.agent.installer.linux.gtk.x86_64.zip)
 
-    
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     Websphere Full 8.5.5 install:
     https://youtu.be/gidA5Z2Vw3o 
     https://youtu.be/6kq5VyhjzYE
