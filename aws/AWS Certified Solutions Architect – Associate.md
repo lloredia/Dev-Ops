@@ -1,12 +1,12 @@
-# COMPUTE 
+# COMPUTE ![Image of Ec2](https://d1.awsstatic.com/Compute/Amazon-EC2_Icon_64_Squid.72d359dffaba80b144c67c84d0735e6ad9a842f9.png)
 
-## Ec2 ![Image of Ec2](https://d1.awsstatic.com/Compute/Amazon-EC2_Icon_64_Squid.72d359dffaba80b144c67c84d0735e6ad9a842f9.png)
+## Ec2 
 
-## Elastic Beanstalk ![Image of Elastic-Beanstalk](https://d1.awsstatic.com/Compute/AWS-Elastic-Beanstalk_Icon_64_Squid.b0b6a5b6c0f8f86263cee48bcb6f0ebf3e2d5781.png)
+## Elastic Beanstalk 
 
-## Lambda![Image of Lambda](https://d1.awsstatic.com/Compute/AWS-Lambda_Icon_48_Squid.66bd35b8de517f00f6b09392f0664b07f4230e25.png)
+## Lambda 
 
-## Ecs ![Image of Ecs](https://d1.awsstatic.com/Compute/Amazon-Elastic-Container-Service_Icon_64_Squid.0145e3da6a120abce13bfb7c836c80de18bd9e24.png)
+## Ecs 
 
 
 
