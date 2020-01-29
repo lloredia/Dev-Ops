@@ -12,7 +12,7 @@
 
 
 
-# STORAGE
+# STORAGE ![s](https://d1.awsstatic.com/Digital%20Marketing/SEO/Product%20Category%20Pages/Product-Category_icon_Storage-Content.649efb1157098c6ea83e8609b8e887a9eb706f19.png)
 
 ## S3 
 Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers.
@@ -32,21 +32,16 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-# DATABASE
+# DATABASE ![]()
 
-## RDS ![Image of RDS](https://d1.awsstatic.com/webteam/category-pages/Amazon-RDS_Icon_48_Squid.81d34ba6158d07d4117a86d8e6fc7359a67a29e8.svg)
-
-## DynamoDB ![d](https://d1.awsstatic.com/webteam/category-pages/Amazon-DynamoDB_Icon_48_Squid.8a84562756885e6ffe363484b4ffa601f650a8ab.svg)
-
-## ElastiCache ![e](https://d1.awsstatic.com/webteam/category-pages/Amazon-ElastiCache-for-Memcache_32_Squid.7ba6af00996de55e92c981f3d49ae8bb9bbeb9db.svg)
-
-## Amazon Redshift ![r](https://d1.awsstatic.com/webteam/category-pages/Amazon-Redshift_Icon_32_Squid.9eb4f5b53cc6be8d310261114e3b3f0f6866c12f.svg)
+## RDS 
+## DynamoDB 
+## ElastiCache 
+## Amazon Redshift 
 
 
 
-
-
-# MIGRATION
+# MIGRATION ![]()
 ## AWS Migration Hub
 ## Application Discovery Service
 ## Database Migration Service 
@@ -57,7 +52,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-# NETWORKING & CONTENT DELIVERY 
+# NETWORKING & CONTENT DELIVERY  ![]()
 ## VPC
 ## CloudFront 
 ## Route53 
@@ -67,7 +62,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-# MANAGEMENT TOOLS  
+# MANAGEMENT TOOLS   ![]()
 ## Cloud Watch 
 ## AWS Auto Scaling 
 ## Cloud Formation
@@ -78,7 +73,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-# MEDIA SERVICE 
+# MEDIA SERVICE  ![]() 
 
 ## Elastic Transcode
 ## Kinesis Video Streams 
@@ -86,8 +81,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-## MACHINE LEARNING 
-
+## MACHINE LEARNING ![]()
 ## Rekognition 
 ## 
 
@@ -95,14 +89,14 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-# ANALYTICS
+# ANALYTICS ![]()
 ## Kinesis
 
 
 
 
 
-# SECURITY, IDENTITY & COMPLIANCE 
+# SECURITY, IDENTITY & COMPLIANCE ![]()
 ## IAM 
 ## Cognito
 ## Inspector 
