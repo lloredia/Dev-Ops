@@ -58,11 +58,10 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 # NETWORKING & CONTENT DELIVERY 
-
 ## VPC
 ## CloudFront 
 ## Route53 
-## API Gateway
+## Direct Connect
 
 
 
