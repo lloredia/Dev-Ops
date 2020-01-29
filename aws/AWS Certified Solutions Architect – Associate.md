@@ -1,6 +1,6 @@
 # COMPUTE 
 
-## Ec2 
+## Ec2 ![Image of Ec2](https://d1.awsstatic.com/Compute/Amazon-EC2_Icon_64_Squid.72d359dffaba80b144c67c84d0735e6ad9a842f9.png)
 
 ## Elastic Beanstalk
 
