@@ -2,7 +2,7 @@
 
 ## Ec2 ![Image of Ec2](https://d1.awsstatic.com/Compute/Amazon-EC2_Icon_64_Squid.72d359dffaba80b144c67c84d0735e6ad9a842f9.png)
 
-## Elastic Beanstalk ![a](https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Deployment__Management_copy_Elastic_Beanstalk-512.png)
+## Elastic Beanstalk ![a](https://d1.awsstatic.com/icons/console_elasticbeanstalk_icon.0f7eb0140e1ef6c718d3f806beb7183d06756901.png)
 ## Lambda![Image of Lambda](https://d1.awsstatic.com/Compute/AWS-Lambda_Icon_48_Squid.66bd35b8de517f00f6b09392f0664b07f4230e25.png)
 
 ## Ecs ![Image of Ecs](https://d1.awsstatic.com/Compute/Amazon-Elastic-Container-Service_Icon_64_Squid.0145e3da6a120abce13bfb7c836c80de18bd9e24.png)
