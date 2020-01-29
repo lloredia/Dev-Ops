@@ -1,5 +1,20 @@
 # COMPUTE 
-## EC2 
-* ELASTIC BEANSTALK
-* LAMBDA
-* ECS
+
+## Ec2 
+
+## Elastic Beanstalk
+
+## Lambda
+
+## Ecs
+
+
+# STORAGE
+
+## S3 
+
+## Efs
+
+## Glacier
+
+## Storage Gateway
