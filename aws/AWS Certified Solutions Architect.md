@@ -103,3 +103,14 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 ## WAF & Shield
 
 
+
+
+
+
+# APPLICATION INTEGRATION 
+## Simple Notification Service 
+## SImple Queue Service
+
+
+
+
