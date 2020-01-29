@@ -30,7 +30,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
-![]()
+
 
 # DATABASE
 
