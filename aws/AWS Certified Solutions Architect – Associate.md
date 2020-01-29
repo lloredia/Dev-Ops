@@ -38,7 +38,7 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 ## DynamoDB ![d](https://d1.awsstatic.com/webteam/category-pages/Amazon-DynamoDB_Icon_48_Squid.8a84562756885e6ffe363484b4ffa601f650a8ab.svg)
 
-## ElastiCache ![e]()
+## ElastiCache ![e](https://d1.awsstatic.com/webteam/category-pages/Amazon-ElastiCache-for-Memcache_32_Squid.7ba6af00996de55e92c981f3d49ae8bb9bbeb9db.svg)
 
 ## Amazon Redshift ![r](https://d1.awsstatic.com/webteam/category-pages/Amazon-Redshift_Icon_32_Squid.9eb4f5b53cc6be8d310261114e3b3f0f6866c12f.svg)
 
