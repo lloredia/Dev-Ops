@@ -65,3 +65,50 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 
 
+
+
+# MANAGEMENT TOOLS  
+## Cloud Watch 
+## AWS Auto Scaling 
+## Cloud Formation
+## CLoud Trail
+## Trusted Advisor
+
+
+
+
+
+# MEDIA SERVICE 
+
+## Elastic Transcode
+## Kinesis Video Streams 
+
+
+
+
+## MACHINE LEARNING 
+
+## Rekognition 
+## 
+
+
+
+
+
+# ANALYTICS
+## Kinesis
+
+
+
+
+
+# SECURITY, IDENTITY & COMPLIANCE 
+## IAM 
+## Cognito
+## Inspector 
+## AWS Organizations
+## CloudHSM
+## Directory Service 
+## WAF & Shield
+
+
