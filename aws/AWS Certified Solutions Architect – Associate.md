@@ -4,7 +4,7 @@
 
 ## Elastic Beanstalk
 
-## Lambda
+## Lambda                               ![Image of Lambda](https://d1.awsstatic.com/Compute/AWS-Lambda_Icon_48_Squid.66bd35b8de517f00f6b09392f0664b07f4230e25.png)
 
 ## Ecs
 
