@@ -9,6 +9,9 @@
 ## Ecs
 
 
+
+
+
 # STORAGE
 
 ## S3 
@@ -25,6 +28,10 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 
 ## Storage Gateway
 
+
+
+
+
 # DATABASE
 
 ## RDS
@@ -34,3 +41,28 @@ Amazon Glacier is a low-cost cloud storage service for data with longer retrieva
 ## ElastiCache
 
 ## Amazon Redshift
+
+
+
+
+
+# MIGRATION
+## AWS Migration Hub
+## Application Discovery Service
+## Database Migration Service 
+## Server Migration Service 
+## Snowball
+
+
+
+
+
+# NETWORKING & CONTENT DELIVERY 
+
+## VPC
+## CloudFront 
+## Route53 
+## API Gateway
+
+
+
