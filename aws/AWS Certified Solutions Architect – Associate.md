@@ -7,9 +7,9 @@
 ## Lambda 
 
 ## Ecs 
+![Image of storage](https://d1.awsstatic.com/Digital%20Marketing/SEO/Product%20Category%20Pages/Product-Category_icon_Storage-Content.649efb1157098c6ea83e8609b8e887a9eb706f19.png)
 
-
-
+![Image of storage](https://d1.awsstatic.com/Digital%20Marketing/SEO/Product%20Category%20Pages/Product-Category_icon_Storage-Content.649efb1157098c6ea83e8609b8e887a9eb706f19.png)
 
 
 # STORAGE ![Image of storage](https://d1.awsstatic.com/Digital%20Marketing/SEO/Product%20Category%20Pages/Product-Category_icon_Storage-Content.649efb1157098c6ea83e8609b8e887a9eb706f19.png)
