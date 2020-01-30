@@ -9,7 +9,7 @@
 ## Ecs 
 
 
-# STORAGE ![Image of storage](https://d1.awsstatic.com/Product-Category_icon_Storage-Content.649efb1157098c6ea83e8609b8e887a9eb706f19.png)
+# STORAGE ![Image of storage](https://d1.awsstatic.com/Getting%20Started/v3/Accent-Icon_Storage.932e57fbfbeec9bfdfb9230b9c7965f22805a447.png)
 
 ## S3 
 Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers.
