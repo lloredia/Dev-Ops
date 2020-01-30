@@ -19,9 +19,12 @@
 
 
 ## Efs
- **Elastic File System** >is a cloud-based file storage service for applications and workloads that run in the Amazon Web Services (AWS) public cloud.
+> **Elastic File System** is a cloud-based file storage service for applications and workloads that run in the Amazon Web Services (AWS) public cloud.
+
+
 
 ## Glacier
+
 > Amazon Glacier is a low-cost cloud storage service for data with longer retrieval times offered by Amazon Web Services (AWS). > A developer uses a cold data cloud service such as Amazon Glacier to move infrequently accessed data to archival storage to save money on storage costs
 
 
