@@ -1,4 +1,4 @@
-# COMPUTE ![Image of Ec2](https://d1.awsstatic.com/Compute/Amazon-EC2_Icon_64_Squid.72d359dffaba80b144c67c84d0735e6ad9a842f9.png)
+# COMPUTE 
 
 ## Ec2 
 
@@ -9,7 +9,7 @@
 ## Ecs 
 
 
-# STORAGE ![Image of storage](https://d1.awsstatic.com/Getting%20Started/v3/Accent-Icon_Storage.932e57fbfbeec9bfdfb9230b9c7965f22805a447.png)
+# STORAGE 
 
 ## S3 
 Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers.
