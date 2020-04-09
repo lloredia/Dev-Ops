@@ -40,7 +40,7 @@ You merely need to perform an HTTP POST on JENKINS_URL/job/JOBNAME/build.
 Jobs with parameters
 Simple example - sending "String Parameters":
 
-''' curl -X POST JENKINS_URL/job/JOB_NAME/buildWithParameters \
+```curl -X POST JENKINS_URL/job/JOB_NAME/buildWithParameters \
   --user USER:TOKEN \
   --data-urlencode json='{"parameter": [{"name":"id", "value":"123"}, {"name":"verbosity", "value":"high"}]}'
 Another example - sending a "File Parameter":
@@ -48,8 +48,8 @@ Another example - sending a "File Parameter":
 curl -X POST JENKINS_URL/job/JOB_NAME/build \
   --user USER:PASSWORD \
   --form file0=@PATH_TO_FILE \
-  --form json='{"parameter": [{"name":"FILE_LOCATION_AS_SET_IN_JENKINS", "file":"file0"}]}''''
- 
+  --form json='{"parameter": [{"name":"FILE_LOCATION_AS_SET_IN_JENKINS", "file":"file0"}]}'
+ ```
 E.g.curl -X POST http://JENKINS_URL/job/JOB_NAME/build  --form file0=@/home/user/Desktop/sample.xml --form json='{"parameter": [{"name":"harness/Task.xml", "file":"file0"}]}'
 Please note, in this example, the symbol '@' is important to mention. Also, the path to the file is absolute path.
 In order to make this command work, you need to configure your Jenkins job to take a file parameter and 'name' in this command corresponds to 'file location' field in the Jenkins job configuration.
