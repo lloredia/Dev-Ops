@@ -16,6 +16,20 @@ $ sudo systemctl restart jenkins.service
 
 * http://localhost:8080
 
+# Using API to pull information 
+
+got to http://txjnkp01:8080/api/ 
+{pick one format} 
+1. XML - http://txjnkp01:8080/api/xml
+2. JSON with JSONP support - http://txjnkp01:8080/api/json?pretty=true
+3. Python - http://txjnkp01:8080/api/python?pretty=true
+
+Get api token 
+http://txjnkp01:8080/me/configure and then click [Show Legacy Api Token]
+
+copy the token to your terminal and run 
+  ++ curl -u adminuser:89ae3cc0dd20381f87557f11f9c73c47 http://txjnkp01:8080/api/python?pretty=true
+  
 
 # Remote access API
 Jenkins provides machine-consumable remote access API to its functionalities. Currently it comes in three flavors:
