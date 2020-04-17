@@ -1,3 +1,3 @@
 # Dev-Ops
-![GitHub Logo](/Dev-Ops/logo.png)
+![Dev-Ops Logo](/Dev-Ops/devops.png)
 Format: ![Alt Text](url)
