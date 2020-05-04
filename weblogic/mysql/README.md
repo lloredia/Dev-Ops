@@ -41,7 +41,7 @@ MySQL [tutorial]> show grants;
 2 rows in set (0.00 sec)
 ```
 
-# Start Up & Shutdwon Process
+# Start Up & Shutdown Process
 
 ## START-UP
 ``` 
