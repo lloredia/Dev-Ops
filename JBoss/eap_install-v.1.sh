@@ -21,7 +21,7 @@ eap_logs_directory=/apps/logs
 eap_install_path=/apps
 package_path=/root/install
 log_directory=${package_path}/logs
-scripts_directory=/tti
+scripts_directory=/script
 next_steps_file=${package_path}/logs/next_steps.txt
 
 # Authority
