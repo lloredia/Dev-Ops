@@ -9,7 +9,7 @@ package_path=/root/install
 mkdir -p ${package_path}
 cd ${package_path}
 
-mv /home/sreddy/EAP72JDK18 ${package_path}
+mv /home/lloredia/EAP72JDK18 ${package_path}
 chown -R root:root EAP72JDK18/
 cd EAP72JDK18/
 unzip jboss-eap-7.2.0.zip
@@ -23,7 +23,7 @@ which java;rpm -q --whatprovides java
 
 #ls -lrt /etc/alternatives/java
 chmod -R 755 /apps/jboss-eap-7.2/
-chown -R jboss:jboss /apps /apps/logs /tti
+chown -R jboss:jboss /apps /apps/logs /u01
 chmod 755 ${package_path}
 
 ./standalone or ./domain 
