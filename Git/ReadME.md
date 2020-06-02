@@ -1,5 +1,5 @@
 # GIT
-* Step 1: 
+* Step 1* : 
 Create a local git repository 
 When creating a new project on your local machine using git, you'll first create a new repository
 
