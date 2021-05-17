@@ -1,7 +1,7 @@
 # JBOSS 
 
-```
-JBOSS INSTALLATION 
+
+## JBOSS INSTALLATION 
 
 groupadd -g 1010 jboss
 useradd -u 1010 -g jboss -s /sbin/nologin -m jboss
