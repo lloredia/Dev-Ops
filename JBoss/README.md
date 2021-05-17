@@ -38,7 +38,7 @@ Standalone.xml
 	 
 standalone.conf 
      ---> add JAVA_HOME="<PATH>"	#for jboss to constantly pick up your java home
-```
+
 
 
 
