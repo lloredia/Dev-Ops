@@ -1,8 +1,4 @@
-Create jboss.service under /etc/systemd/system 
-(contents below)
-
-
-```[Unit]
+[Unit]
 Description=JBoss Service
 After=network.service
 
@@ -17,4 +13,4 @@ RemainAfterExit=yes
 
 
 [Install]
-WantedBy=default.target```
+WantedBy=default.target
