@@ -1,0 +1,20 @@
+Create jboss.service under /etc/systemd/system 
+(contents below)
+
+
+```[Unit]
+Description=JBoss Service
+After=network.service
+
+
+[Service]
+Type=oneshot
+ExecStart=/tti/bin/startStandalone.sh --server
+ExecStop=/tti/bin/stopStandalone.sh --server
+User=root
+RemainAfterExit=yes
+
+
+
+[Install]
+WantedBy=default.target```
