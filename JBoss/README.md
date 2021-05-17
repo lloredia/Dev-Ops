@@ -53,6 +53,6 @@ vi jboss.service
 after inpt Run below commands:
 
 ```systemctl enable jboss```
+```systemctl stop jboss```
+```systemctl status jboss```
 ```systemctl start jboss```
-
-
