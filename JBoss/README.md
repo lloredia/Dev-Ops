@@ -9,15 +9,18 @@ useradd -u 1010 -g jboss -s /sbin/nologin -m jboss
 package_path=/root/install
 mkdir -p ${package_path}
 cd ${package_path}
-
+```
+```
 mv /home/lloredia/EAP72JDK18 ${package_path}
 chown -R root:root EAP72JDK18/
 cd EAP72JDK18/
 unzip jboss-eap-7.2.0.zip
-
+```
+```
 cd ${package_path}/EAP72JDK18/
 mv jboss-eap-7.2 /apps
-
+```
+```
 cd ${package_path}/EAP72JDK18/
 rpm -ivh jdk-8u231-linux-x64.rpm
 which java;rpm -q --whatprovides java
