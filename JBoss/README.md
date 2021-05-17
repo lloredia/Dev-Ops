@@ -3,7 +3,7 @@
 
 ## JBOSS INSTALLATION 
 
-groupadd -g 1010 jboss
+```groupadd -g 1010 jboss
 useradd -u 1010 -g jboss -s /sbin/nologin -m jboss
 
 package_path=/root/install
@@ -28,7 +28,7 @@ chown -R jboss:jboss /apps /apps/logs /u01
 chmod 755 ${package_path}
 
 ./standalone or ./domain 
-
+```
 ##########################
 ### AFTER INSTALLATION ###
 ##########################
