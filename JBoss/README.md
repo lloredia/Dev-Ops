@@ -29,16 +29,15 @@ chmod 755 ${package_path}
 
 ./standalone or ./domain 
 ```
-##########################
-### AFTER INSTALLATION ###
-##########################
 
-Standalone.xml
+## AFTER INSTALLATION 
+
+```Standalone.xml
      --->  Update </interface>    #for connection purposes
 	 
 standalone.conf 
      ---> add JAVA_HOME="<PATH>"	#for jboss to constantly pick up your java home
-
+```
 
 
 
