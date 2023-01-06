@@ -1,0 +1,18 @@
+---
+- name: Install and configure JBoss server
+  hosts: all
+  become: yes
+  tasks:
+  - name: Install Java
+    package:
+      name: openjdk-8-jdk
+      state: present
+  - name: Install JBoss
+    unarchive:
+      src: https://download.jboss.org/jboss-7.1.0.zip
+      dest: /opt/
+      remote_src: yes
+  - name: Start JBoss
+    command: /opt/jmax-7.1.0/bin/standalone.sh
+    async: 0
+    poll: 0
